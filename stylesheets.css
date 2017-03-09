@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Roboto|Roboto+Condensed');
+body {
+  font-family: 'roboto', sans-serif;
+  background-image: url('images/green-cup.png');
+  background-repeat: repeat;
+  margin: 0;
+}
+.language {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+.language-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.language-li {
+  float: left;
+  display: block;
+}
+img {
+  width:50%;
+  display: block;
+  margin: auto;
+  padding: 15px 0px;
+}
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+header,footer {
+  color: white;
+  background-image: url('images/black-background.png');
+  width: 100%;
+  margin: 0;
+  padding: 10px 0px;
+}
+main {
+  width: 600px;
+  margin: auto;
+  text-align: left;
+}
+h1,h2 {
+  font-family: 'roboto condensed', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+header h1 {
+  font-family: 'alegreya', serif;
+  text-align: left;
+  margin: auto;
+}
+
+/* need to add a navigation bar */
+
+nav {
+}
+#footer a:link { color: white; }
+#footer a:visited { color: lightgrey; }
+#footer a:hover   { color: grey; }
+#footer a:active  { color: red; }
+a:link    { color: lightgreen; }
+a:visited { color: darkgreen;   }
+a:hover   { color: black; }
+a:active  { color: red;  }
